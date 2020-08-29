@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "appData": {"version":"1.1.1"},
+  "appData": { "version": "1.1.1" },
   "$schema": "./node_modules/@angular/service-worker/config/schema.json",
   "index": "/index.html",
   "assetGroups": [
@@ -12,18 +12,19 @@
           "/favicon.ico",
           "/index.html",
           "/manifest.webmanifest",
+          "/assets/images/install_prefetch.png",
           "/*.css",
           "/*.js"
         ]
       }
-    }, {
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/assets/**",
-          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+          "/assets/images/install_lazy.png"
         ]
       }
     }
