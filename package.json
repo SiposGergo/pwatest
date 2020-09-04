@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-prod": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -24,6 +25,7 @@
     "@angular/service-worker": "~9.1.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "web-push": "^3.4.4",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {

@@ -44,3 +44,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+push/vapid-private-key.js
+push/browser-keys.js

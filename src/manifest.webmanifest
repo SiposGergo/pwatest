@@ -3,9 +3,17 @@
   "short_name": "pwatest",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "./",
   "start_url": "./",
+  "shortcuts": [
+    {
+      "name": "shortcut",
+      "short_name": "test",
+      "description": "test",
+      "url": "/lazy"
+    }
+  ],
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",

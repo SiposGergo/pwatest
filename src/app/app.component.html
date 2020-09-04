@@ -1,3 +1,9 @@
-<a routerLink="lazy">Open lazy component</a>
+<section><a routerLink="lazy">Open lazy component</a></section>
+<section>
+  <button *ngIf="promptEvent" (click)="installPwa()">Add to homescreen</button>
+</section>
+<section>
+  <button (click)="subscribe()">Subscribe to web notifications</button>
+</section>
 
 <router-outlet></router-outlet>
